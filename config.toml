@@ -1,3 +1,4 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+# CHANGE BASE URL ON DEPLOYMENT
+baseURL = "https://wilocw.github.io/SheffieldML"
+languageCode = "en-gb"
+title = "Machine Learning Group at the University of Sheffield"
