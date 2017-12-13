@@ -1,4 +1,148 @@
 # CHANGE BASE URL ON DEPLOYMENT
 baseURL = "https://wilocw.github.io/SheffieldML"
+# Page title
+title = "Machine Learning"
+# Copyright
+copyright = "&copy; 2017 University of Sheffield"
+
+# Theme
+theme = "academic"
+# Language Encoding
 languageCode = "en-gb"
-title = "Machine Learning Group at the University of Sheffield"
+DefaultContentLanguage = "en"
+
+# Directory pointers
+publishdir = "public"
+contentdir = "content"
+layoutdir = "layouts"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+
+# Content settings
+canonifyurls = true
+metaDataFormat = "toml"
+paginate = 10
+footnotereturnlinkcontents = "<sup>^</sup>"
+
+###############################################################################
+# Option parameters
+[outputs]
+    home = ["HTML", "CSS"]
+
+[Languages.en] # Configure English version of website
+    languageCode = "en-gb"
+
+[taxonomies] # Taxonomies
+    tag = "tags"
+    category = "categories"
+    publication_type = "publication_types"
+
+################################################################################
+# Theme parameters
+[params]
+    # TODO : Replace with custom theme @trallard
+    color_theme="default"
+    # TODO : Replace with custom font @trallard
+    font="default"
+
+    # Group details
+    name = "Machine Learning Group"
+    role = "" # ??
+    organizations = [{name="Department of Computer Science", url=""},{name="University of Sheffield", url=""}]
+    email = "todo@contact.me"
+
+    # Group icon [TODO]
+    gravatar=false
+    avatar = "" # file in static/img/ dir
+
+    # Formatting options
+    date_format = "Jan 2, 2006"
+    math = true # Enable KaTeX
+    highlight = true # Syntax highlight
+    highlight_languages = [] # TODO : ?? e.g. Python
+    highlight_style = "solarized-light" # TODO : Match with custom theme @trallard
+
+    # Publication info [indexes] : (UNUSED ??)
+    publication_types = [
+        'Uncategorized',  # 0
+        'Conference proceedings',  # 1
+        'Journal',  # 2
+        'Work in progress',  # 3
+        'Technical report',  # 4
+        'Book',  # 5
+        'Book chapter'  # 6
+    ]
+
+################################################################################
+# SOCIAL MEDIA AND EXTERNALS
+[[params.social]] # github
+    icon = "github"
+    icon_pack = "fa"
+    link = "http://github.com/SheffieldML"
+
+[[params.social]] # twitter ??
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "http://twitter.com/?=GROUP_USERNAME"
+
+# ... other social representations (facebook ??)
+
+################################################################################
+# Menu Options / Widgets
+
+# ABOUT / NEWS : Point of access, group description, recent news
+# TODO:
+#   - Get description of group
+#   - Create "recent news" widget
+[[menu.main]]
+    name = "About"
+    url = "#about"
+    weight = 1
+
+# PEOPLE : Main PIs on front page, seperate page with info on others / labs
+# TODO:
+#   - Identify key names
+#   - Create "people" page
+#   - Get descriptions of members, labs, personal sites
+[[menu.main]]
+    name = "People"
+    url = "#people"
+    weight = 2
+
+# RESEARCH : Current projects, highlighted features
+# TODO:
+#   - Research Widget
+#   - Research description template, inc. picture highlights
+[[menu.main]]
+    name = "Research"
+    url = "#research"
+    weight = 3
+
+# SOFTWARE : Software output, highlighted sites and repositorys
+# TODO:
+#   - Software widget
+[[menu.main]]
+    name = "Software"
+    url = "#software"
+    weight = 4
+
+# TEACHING / COURSES : ML-led modules, courses (MSc's)
+# TODO:
+#   - Get this info, confirmation
+[[menu.main]]
+    name = "Teaching"
+    url = "#teaching"
+    weight = 5
+
+# CONTACT INFORMATION : Address, directions, point-of-contact ?
+[[menu.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 6
+
+# OTHER
+# [external link to MLSS, network, etc.]
+# [[menu.main]]
+#   name = "Network"
+#   url = "sheffield.ac.uk/dcs/ml_network" # etc...
+#   weight = 7
