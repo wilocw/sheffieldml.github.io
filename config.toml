@@ -6,7 +6,8 @@ title = "Machine Learning"
 copyright = "&copy; 2017 University of Sheffield"
 
 # Theme
-theme = "academic"
+#theme = "academic" # ORIGINAL: github.com/gcushen/hugo-academic
+theme = "academics" # FORK: github.com/wilocw/hugo-academics
 # Language Encoding
 languageCode = "en-gb"
 DefaultContentLanguage = "en"
