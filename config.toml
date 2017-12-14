@@ -17,7 +17,6 @@ contentdir = "content"
 layoutdir = "layouts"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-
 # Content settings
 canonifyurls = true
 metaDataFormat = "toml"

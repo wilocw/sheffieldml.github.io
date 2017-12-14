@@ -9,5 +9,7 @@ widget = "projects"
 
 view = 1
 
+weight = 3
+
 filter_default = 0
 +++
