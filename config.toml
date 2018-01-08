@@ -1,9 +1,9 @@
 # CHANGE BASE URL ON DEPLOYMENT
 baseURL = "https://wilocw.github.io/SheffieldML"
 # Page title
-title = "Machine Learning"
+title = "Machine Learning | University of Sheffield"
 # Copyright
-copyright = "&copy; 2017 University of Sheffield"
+copyright = "&copy; 2018 University of Sheffield"
 
 # Theme
 #theme = "academic" # ORIGINAL: github.com/gcushen/hugo-academic
@@ -106,7 +106,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 #   - Get descriptions of members, labs, personal sites
 [[menu.main]]
     name = "People"
-    url = "#people"
+    url = "people"
     weight = 2
 
 # RESEARCH : Current projects, highlighted features
@@ -115,7 +115,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 #   - Research description template, inc. picture highlights
 [[menu.main]]
     name = "Research"
-    url = "#research"
+    url = "research"
     weight = 3
 
 # SOFTWARE : Software output, highlighted sites and repositorys
@@ -123,7 +123,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 #   - Software widget
 [[menu.main]]
     name = "Software"
-    url = "#software"
+    url = "software"
     weight = 4
 
 # TEACHING / COURSES : ML-led modules, courses (MSc's)
@@ -131,7 +131,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 #   - Get this info, confirmation
 [[menu.main]]
     name = "Teaching"
-    url = "#teaching"
+    url = "teaching"
     weight = 5
 
 # CONTACT INFORMATION : Address, directions, point-of-contact ?

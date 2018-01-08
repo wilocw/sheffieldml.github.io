@@ -1,10 +1,9 @@
 +++
 # Example (custom) people widget
 
-    title="Wil Ward"
+    title="Michael Smith"
     date = 2017-12-12T18:15:04Z
     draft=false
-    description = "hi"
 +++
 
 Hello
